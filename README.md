@@ -3,6 +3,9 @@ Lambda_Function_simple_gems_for_ruby2.7.0 は AWS Lambda カスタムランタ�
 Ruby2.7.0 の Lambda functionテンプレートです。
 シンプルなgemがプレインストールされていますので、必要なGemを追加してLambda functionとして導入してください。
 
+# 注意点
+mysql,kaminariなどのネイティブライブラリは未対応です。
+
 # AWS Lambda デプロイ手順
 ```
 $ vi lambda_function.rb
